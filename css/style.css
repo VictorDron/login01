@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.master{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.container-login{
+
+    position: relative;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    margin-top: 10%;
+    
+}
+
+.img-box{
+    width: 50%;
+    height: 100%;
+    background: #5bb;
+}
+
+.img-box img{
+    width: 100%;
+    height: 100%;
+}
+
+.content-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.content-box .form-box{
+    width: 50%;
+}
+
+.content-box .form-box .ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.content-box .form-box .ul li {
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 0 7px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.content-box .form-box .ul li:hover{
+    background: #5bb;
+
+}
+
+.form-box .ul li  img{
+
+    width: 40px;
+}
+.content-box .form-box h2{
+    color: #32324f;
+    font-weight: 600;
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.content-box .form-box{
+    margin-bottom: 20px;
+}
+
+.content-box .form-box .input-box input{
+    width: 100%;
+    padding: 10px;
+    outline:none ;
+    font-weight: 400;
+    border: none;
+    font-size: 17px;
+}
